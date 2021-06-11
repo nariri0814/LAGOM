@@ -1,0 +1,167 @@
+.shop{
+    width: 100%;
+    padding-top: 66px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.shop_tit{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.shop_tit h1{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 19px;
+    font-weight: 800;
+    color: #343E4E;
+    letter-spacing: 2px;
+}
+.shop_btn_box{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.shop_btn_sl_box{
+    width: 100%;
+    position: relative;
+}
+.shop_btn_box h2{
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    padding: 13px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1b1b1b;
+    text-align: left;
+}
+.shop_btn_arrow{
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    transform: translateY(-50%);
+}
+.shop_btn_box_inner {
+    width: 100%;
+    box-shadow: 0 0 6px #b9b9b9;
+    background: #fff;
+    padding: 13px;
+    box-sizing: border-box;
+    text-align: left;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+.shop_btn_box_active {
+    opacity: 1;
+    transition: all 0.3s;
+}
+.shop_btn{
+    font-size: 13px;
+    font-weight: 600;
+    color: #B3B3B3;
+    padding: 9px 5px;
+}
+.shop_btn a {
+    padding-right: 380px;
+}
+/* /////////배너///////// */
+.shop_banner{
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.shop_ban_outer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.sh_banner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.sh_ban1 {background: url(../img/SHOP/m_shop_banner1.png) no-repeat center / cover;}
+.sh_ban2 {background: url(../img/SHOP/m_shop_banner2.png) no-repeat center / cover;}
+.sh_ban3 {background: url(../img/SHOP/m_shop_banner3.jpg) no-repeat center / cover;}
+
+.shop_product {
+    width: 100%;
+    overflow: hidden;
+}
+.product_tit{
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: #444;
+}
+.item_container{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.product_box{
+    width: calc((100% - 10px - 1px) / 2);
+    margin-right: 10px;
+    margin-bottom: 15px;
+    float: left;
+}
+.product_box:nth-child(2n) {
+    margin-right: 0;
+}
+.product_box a{display: block;}
+.pro_img{
+    width: 100%;
+    overflow: hidden;
+    background: #F8F8F8;
+    position: relative;
+    font-size: 0;
+}
+.pro_txt{
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+.pro_txt p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pro_name{
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+}
+.pro_info{
+    font-size: 11px;
+    font-weight: 600;
+    color: #828282;
+    margin: 7px 0;
+}
+.pro_price{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
