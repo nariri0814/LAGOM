@@ -145,7 +145,7 @@ $(document).ready(function(){
             let item_top = $(item_sec).offset().top; 
             let w_top = $(window).scrollTop();
             let w_height = $(window).height();
-console.log(item_top);
+// console.log(item_top);
             let txt_box_length = $(item_sec).find('.txt_box').length;
             // console.log($(item_sec).find('.txt_box').length);
 

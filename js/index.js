@@ -10,7 +10,7 @@ if(navigator.maxTouchPoints > 1) {
 }
 
 
-document.write(navigator.userAgent) 
+// document.write(navigator.userAgent) 
 $(document).ready(function(){
     
     ////////////// 메인배너 슬라이드 //////////////
@@ -87,15 +87,14 @@ $(document).ready(function(){
         main_auto_sl();
         
         if($('.indi_active').index() > $(this).index()) {
-console.log("왼")
+// console.log("왼")
             main_slide($(this).index(), '-100%',(main_b_index -1) %  ban_length, '100%');
         }
         else {
-console.log("우")
+// console.log("우")
             // $('.btn_R').trigger('click');
             main_slide($(this).index(), '100%', (main_b_index -1) %  ban_length, '-100%');
         }
-        // indi_index = $(this).index() + 1;
 
         indi_color($(this).index());
         main_b_index = $(this).index() + 1
@@ -145,7 +144,7 @@ console.log("우")
                 }
             }
         });
-    }
+    };
 
     item_animation('.main_product');
     item_animation('.event_banner');
@@ -177,7 +176,22 @@ console.log("우")
                 opacity: 1
             },1000);
         } 
-    })
+    });
+
+    /////////////////// 물결효과 ///////////////////
+    $('.wave').ripples({
+        resolution: 130,
+        perturbance: 0.01
+    });
+    $(".aqualicia_txt").on('mousedown',function(e){
+        e.offsetX=400;
+        e.offsetY=200;
+    });
+    setTimeout(function(){
+        $(".aqualicia_txt").fadeIn(600);
+        $(".aqualicia_txt").trigger('mousedown');
+    },600);
+
 
     ////////////// 인스타 첫번째박스 화살표 애니메이션 //////////////
     $('.insta_box1').hover(function(){

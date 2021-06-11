@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
     ///////////////정보 불러오기/////////////
     const cate_no = Number(get_url_info("cate_no")); 
@@ -15,8 +12,7 @@ $(document).ready(function(){
             ITEM = ITEM_LIST[cate_no][i];
             break;
         }
-    }
-
+    };
 
     let list =     '<div class="item_tit">';
         list +=         '<div class="item_name">'+ITEM.name+'</div>';
@@ -123,7 +119,7 @@ $(document).ready(function(){
     for(let i=0; i<$('.opt_sel').children().length; i++) {
         opt_chk[i]=true;
     }
-    console.log(opt_chk)
+    // console.log(opt_chk)
 
     $('#sl_box').change(function(){
 // console.log($('#sl_box .opt_sel option:selected').text());

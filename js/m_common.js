@@ -55,10 +55,7 @@ $(document).ready(function(){
         $(this).children('.bullet').toggleClass('bullet_active');
         $(this).next('.menu_aco_box').toggleClass('menu_aco_box_active');
 
-    })
-
-
-
+    });
 
 });
 

@@ -137,7 +137,7 @@ $(document).ready(function(){
             left:0
         }, timer);
 
-        //나갈베너
+        //나갈배너
         $('.ev_ban_box').eq(o_in).animate({
             left: o_po
         }, timer);

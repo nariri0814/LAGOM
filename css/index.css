@@ -252,6 +252,7 @@
     text-align: center;
     /* opacity: 0; */
     color: #333;
+    /* display: none; */
 }
 .aq_txt{
     left: 50%;
@@ -279,6 +280,13 @@
     left: 70%;
     opacity: 0;
 }
+/* .wave {
+    width:100vw;
+    height: 100vh;
+    background-image:url(img/hologram_bg1.png);
+    background-size:100%;
+    position:relative;
+} */
 /* ////////이벤트배너/////////// */
 .event_banner{
     width: 100%;

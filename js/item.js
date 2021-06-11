@@ -6,14 +6,10 @@ $(document).ready(function(){
     const item_no = Number(get_url_info("item_no"));
     const page_title = ['ALL','CELLUP','CELLUS','LIFESTYLE'];
     // const sec_id = ['all', 'cellup', 'cellus', 'lifestyle'];
-    console.log(location.href)
+    // console.log(location.href)
 
     let ITEM;
-    // if(ITEM_LIST[cate_no].length < 0) {
-    // if(!cate_no) {
-    //     alert('SHOP페이지에서 상품을 눌러주세요:).')
-    //     location = "shop.html?cate_no=0";
-    // };
+    
     let mobile_chk = navigator.userAgent.toLowerCase();
     let array = ["android", "iphone", "ipad"];
     for(let i = 0; i < array.length; i++) {
@@ -146,7 +142,7 @@ $(document).ready(function(){
                 opacity: h_it_hov_opa
             });
         });
-    }
+    };
     sm_hov_ani('.sm_img1',1,0,1,0);
     sm_hov_ani('.sm_img2',0,1,0,1);
 
@@ -156,7 +152,7 @@ $(document).ready(function(){
     for(let i=0; i<$('.opt_sel').children().length; i++) {
         opt_chk[i]=true;
         // console.log($('.opt_sel').children().length)
-    }
+    };
 
     $('#sl_box').change(function(){
 // console.log($('#sl_box .opt_sel option:selected').text());

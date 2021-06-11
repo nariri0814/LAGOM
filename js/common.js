@@ -7,10 +7,7 @@ $(document).ready(function(){
             scrollTop: $('#top').offset().top
         }, 500)
         
-    })
-    
-
-
+    });
     
     ////////////////헤더픽스드////////////////
 
@@ -98,18 +95,7 @@ function add_comma(x) {
 };
 
 const ITEM_LIST = [
-    // ALL_LIST
-    // [
-    //     {item_no: 1, src: 'cleansing_3_set.png', name: '[미세먼지차단세트]셀럽 마이크로 폼 클렌저+미스트 토너', info: '미세먼지OUT클렌징+진정 토너', price: 43000 },
-    //     {item_no: 2, src: 'deep_mild_set.png', name: '[촉촉보습세트]셀러스 딥 모이스쳐 크림+마일드 모이스처 크림', info: '속부터 촉촉하게 수분막 강화', price: 74000},
-    //     {item_no: 3, src: 'deet_set.png', name: '영양가득 5종 선물세트', info: '#토너&크림#영양가득#명절세트', price: 66000},
-    //     {item_no: 4, src: 'micro_set.png', name: '클렌징 스킨케어 3종 선물세트', info: '#클렌징&토너#미세먼지차단#명절세트', price: 43000},
-    //     {item_no: 5, src: 'mini_trio.png', name: '라곰 미니 트리오', info: '젤투워터+마이크로 폼+PH 큐어 클렌저#3종미니세트', price: 12000},
-    //     {item_no: 6, src: 'ph_cleanser_set.png', name: '[약산성클렌저세트]셀럽 피에이치 큐어 폼 클렌저+젤 투 워터 클렌저', info: '여드름.민감성 피부사용OK', price: 35000},
-    //     {item_no: 7, src: 'revive_set.png', name: '[탱탱탄력세트]셀러스 리바이브 에센토너+5겹코튼', info: '#에센토너와 5겹코튼으로 스킨팩', price: 34000},
-    //     {item_no: 8, src: 'travel_kit.png', name: '트래블 키트', info: '여행 갈때도 빼놓지 말고 한 번에', price: 21000}
-    // ],
- 
+    
     //  CELLUP_LIST
     [
         {item_no: 1, src: 'cleansing_bar_set.png', name: '셀럽 피에이치 밸런스 클렌징 바 세트', info: '알러젠무첨가 약산성클렌징바#올인원케어', price: 18000},

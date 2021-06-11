@@ -291,15 +291,20 @@ footer{
     padding: 70px 10px;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .f_logo{margin-bottom: 40px;}
 
-.footer_box{
-    float: left;
-    height: 100%;
-    margin-right: 35px;
+.footer_box_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.footer_box:last-child {margin: 0;}
+.footer_box{
+    height: 100%;
+}
 .f_R_txt_box{
     font-size: 13px;
     color: #909090;
